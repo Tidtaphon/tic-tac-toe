@@ -8,7 +8,7 @@ export default function GamePage() {
   return (
     <div className="min-h-screen flex flex-col items-center gap-6 p-6">
       <button
-        onClick={() => signOut()}
+        onClick={() => signOut({ callbackUrl: "/" })}
         className="px-6 py-3 bg-red-600 rounded hover:bg-red-500"
       >
         Sign Out
