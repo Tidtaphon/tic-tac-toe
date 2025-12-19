@@ -2,9 +2,6 @@ import SignOutButton from "@/components/SignOutButton";
 import { prisma } from "@/lib/prisma";
 
 export default async function AdminPage() {
-  // const users = await prisma.user.findMany({
-  //   orderBy: { score: "desc" },
-  // });
   const users = await prisma.user.findMany({
     where: {
       role: "USER",

@@ -20,13 +20,6 @@ export default async function HomePage() {
             >
               Play Game
             </Link>
-
-            {/* <Link
-            href="/admin"
-            className="px-6 py-3 bg-blue-600 rounded hover:bg-blue-500"
-          >
-            Admin
-          </Link> */}
           </div>
         </>
       ) : (
